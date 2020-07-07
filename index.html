@@ -3,11 +3,11 @@
 
 <!-- Start head -->
 <head>
-    <meta charset="utf-8"/>
-    <title>Front-end</title>
+  <meta charset="utf-8" />
+  <title>Front-end</title>
 
-    <!-- SEO meta tags -->
-    <!-- <meta property="og:url" content="url" />
+  <!-- SEO meta tags -->
+  <!-- <meta property="og:url" content="url" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="title" />
         <meta property="og:description" content="description"/>
@@ -16,49 +16,48 @@
         <meta name="twitter:card" content=summary />
         <meta name="twitter:description" content="description"/>
         <meta name="twitter:title" content="title" /> -->
-    <!--End SEO meta tags -->
+  <!--End SEO meta tags -->
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <!-- Template Basic Images Start -->
-    <link rel="icon" href="img/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png"/>
-    <!-- Template Basic Images End -->
+  <!-- Template Basic Images Start -->
+  <link rel="icon" sizes="512x512" href="img/favicon180x180.png" />
+  <!-- Template Basic Images End -->
 
-    <!-- Custom Browsers Color Start -->
-    <meta name="theme-color" content="#000"/>
-    <!-- Custom Browsers Color End -->
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#000" />
+  <!-- Custom Browsers Color End -->
 
 
-    <style>
-        body {
-            opacity: 0;
-        }
+  <style>
+    body {
+      opacity: 0;
+    }
 
-        .modal {
-            opacity: 0;
-        }
+    .modal {
+      opacity: 0;
+    }
 
-        .dropdown-menu {
-            opacity: 0;
-            visibility: hidden;
-        }
+    .dropdown-menu {
+      opacity: 0;
+      visibility: hidden;
+    }
 
-        @media screen and (max-width: 991px) {
+    @media screen and (max-width: 991px) {
 
-            .header nav {
-                transform: translate3d(100%, 0, 0);
-                visibility: hidden;
-            }
+      .header nav {
+        transform: translate3d(100%, 0, 0);
+        visibility: hidden;
+      }
 
-            /*header mega menu */
-            .header.header-mega-menu nav {
-                transform: translate3d(100%, 0, 0);
-                visibility: hidden;
-            }
-        }
-    </style>
+      /*header mega menu */
+      .header.header-mega-menu nav {
+        transform: translate3d(100%, 0, 0);
+        visibility: hidden;
+      }
+    }
+  </style>
 <link href="main.css" rel="stylesheet"></head><!-- End head -->
 
 <!-- Body Modifications -->
@@ -72,7 +71,7 @@
     <header class="header">
       <div class="container">
         <div class="header__row">
-          <a href="/" class="logo">
+          <a href="sitemap.html" class="logo">
             <svg width="147" height="55" viewBox="0 0 147 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path class="svg-fill" d="M27.9935 0.62793V7.08797H18.124V35.7992H9.95921V7.08797H0V0.62793H27.9935Z" fill="white"/>
             <path class="svg-fill" d="M22.8794 32.9281C22.8794 32.4795 22.9691 32.1206 23.1486 31.672C23.328 31.3131 23.5075 30.9542 23.7766 30.6851C24.0458 30.4159 24.4047 30.1467 24.7636 30.057C25.1225 29.8776 25.5711 29.7878 26.0197 29.7878C26.4683 29.7878 26.9169 29.8776 27.2758 30.057C27.6347 30.2365 27.9936 30.4159 28.2628 30.6851C28.5319 30.9542 28.8011 31.3131 28.9805 31.672C29.16 32.0309 29.2497 32.4795 29.2497 32.9281C29.2497 33.3767 29.16 33.7356 28.9805 34.1843C28.8011 34.5432 28.6216 34.902 28.2628 35.1712C27.9936 35.4404 27.6347 35.7095 27.2758 35.7993C26.9169 35.9787 26.4683 36.0684 26.0197 36.0684C25.5711 36.0684 25.1225 35.9787 24.7636 35.7993C24.4047 35.6198 24.0458 35.4404 23.7766 35.1712C23.5075 34.902 23.2383 34.5432 23.1486 34.1843C22.9691 33.8254 22.8794 33.3767 22.8794 32.9281Z" fill="white"/>
@@ -123,10 +122,21 @@
 
     <!--Start page-->
     <div class="page-wrapper page-home">
-
+      <div class="preloader">
+        <div class="preloader__logo">
+          <blockquote>
+            In the middle of difficulty lies opportunity
+          </blockquote>
+          <span class="quote-author">Albert Einstein</span>
+        </div>
+      
+        <div class="preloader__bg" style="background-image: url(img/preloader-svg-min.png);">
+      
+        </div>
+      </div>
       <div id="pagepiling">
-       
-        
+
+
         <!-- Start introduction -->
         <!-- Start introduction section -->
         
@@ -147,7 +157,7 @@
                     <div class="video-wrap">
                       <div class="video-rotate">
                         <video  poster="img/intro-video-min.png">
-                          <source src="./video/intro.mp4" type="video/mp4">
+                          <source src="video/intro.mp4" type="video/mp4">
                         </video>
                       </div>
                     </div>
@@ -332,7 +342,7 @@
           
         </section>
         <!-- End our-process section -->        <!-- End out-process -->
-    
+
         <!-- Start day-plan -->
         <!-- Start day-plan section -->
         <section class="section day-plan section--default" id="day-plan">
@@ -664,8 +674,8 @@
         
         </section>
         <!-- End apps section -->        <!-- End apps -->
-          
-         <!-- Start team -->
+
+        <!-- Start team -->
         <!-- Start team section -->
         <section class="section team section--default" id="team">
           <div class="container">
@@ -725,8 +735,7 @@
                 <p>T.S.A.G 2020. All rights reserved.</p>
                 <a href="#" class="btn">up</a>
               </div>
-            </footer>
-          </div>
+            </footer>  </div>
         </section>
         <!-- End team section -->        <!-- End team -->
 
